@@ -1,0 +1,111 @@
+/* header css -------------------- */
+body {
+    height: auto;
+    width: auto;
+}
+.top-header {
+    height: 80px;
+    width: auto;
+    background-image: url("/images/banner-header-easter-cross.jpeg")
+}
+
+.social-top-icons {
+    display: inline-block;
+    height: 30px;
+    float: right;
+    margin: 30px;
+    padding: 0 20px 0 20px;
+    font-size: 1.2em;
+}
+
+.fa-envelope {
+    margin-right: 30px;
+}
+
+.fa {
+    color: #f8f8ff;
+}
+
+a {
+    text-decoration: none;
+    color: ghostwhite;
+}
+
+.logo-text {
+    float: left;
+    height: 75px;
+    width: 15%;
+    margin-left: 50px;
+    color: ghostwhite;
+    font-size: 24px;
+    padding-top: 5px;
+}
+
+
+/* header css -------------------- */
+
+.nav-bar {
+    height: 40px;
+    width: 65%;
+    background-color: white;
+}
+
+.nav-bar-text {
+    height: 40px;
+    width: auto;
+}
+
+li {
+    display: inline;
+}
+
+li a {
+    font-family: 'Open Sans', sans-serif;
+    color: black;
+    float: left;
+    margin-left: 2%;
+    margin-top: 10px;
+    font-size: 17px;
+    border-width: 0 0 2px;
+    border-style: solid;
+    border-color: black;
+}
+
+li a:hover {
+    opacity: .5;
+    transition: opacity .5s ease-out;
+    -moz-transition: opacity .5s ease-out;
+    -webkit-transition: opacity .5s ease-out;
+    -o-transition: opacity .5s ease-out;
+}
+
+
+/* --- meain header with cross picture */
+
+.main-header {
+    height: 600px;
+    width: auto;
+    background-image: url(/images/banner-header-easter-cross.jpeg)
+}
+
+.acts-242 {
+    height: 200px;
+    width: 700px;
+    position: relative;
+    padding-top: 8%;
+    margin-left: 85px;
+}
+
+.acts-242 p {
+    color: ghostwhite;
+    font-size: 24px;
+}
+
+.blockquote {
+  background: none;
+  border-left: 4px solid #ccc;
+  margin: 10px;
+  padding: 10px;
+  quotes: "\201C""\201D""\2018""\2019";
+}
+    
